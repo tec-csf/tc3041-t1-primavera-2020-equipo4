@@ -4,9 +4,9 @@
 
 ##### Integrantes:
 1. *[Simón Meta Grego]* - *[A01377925]* - *[Santa Fe]*
-2. *[Christian Alberto Dalma Schultz]* - *[Poner aquí su Matrícula]* - *[Santa Fe]*
+2. *[Christian Alberto Dalma Schultz]* - *[A01423166]* - *[Santa Fe]*
 3. *[Jorge Damián Palacios Hristova]* - *[A01654203]* - *[Santa Fe]*
-4. *[Isabel Maqueda Rolon]* - *[Poner aquí su Matrícula]* - *[Santa Fe]*
+4. *[Isabel Maqueda Rolon]* - *[A01652906]* - *[Santa Fe]*
 
 ---
 ## 1. Aspectos generales
