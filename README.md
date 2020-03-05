@@ -54,12 +54,16 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 
 ### 2.1 Modelo de la *base de datos* 
 
-*[Incluya aquí el Diagrama Entidad-Relación Extendido y explique las jerarquías modeladas así como las restricciones existentes*
+![](databases/Tarea%201%20ERE.png)
 
+Como se puede ver en el diagrama, tenemos cuatro entidades importantes. Son Colegio, Mesa, Votante y Partido. Cada entidad tiene sus propios ids y sus propias variables. Como Votante puede ser Extranjero ó mexicano, esta como entidad debil, ya que depende de la jerarquia para poder existir. Pero como se puede ver, al ser mexicano tambien tienes opciones y una jerarquia. El mexicano puede ser un miembro Presidoente ó Vocal ó puede ser un Suplente del Presidente o Vocal. Por eso la relacion es no disjuntiva y la relacion de Mexicano ó Extranjero es disjuntiva. EL Partido tambien tiene una relacion con votante, ya que cada partido tiene una lista municipal de 4 personas votantes que no son parte de alguna mesa. Aparte, cada partido guarda el nombre de su Presidente, su nombre y las siglas del partido al igual que el Apoderado del Partido.
+
+Haciendo uso de fechas, en la relacion entre Mesa y Votante estan las fechas de inicio y fin del Presidente Suplente o Vocal de cada mesa. 
+
+Tambien entre Mesa y Partido hay dos tablas, que representan las Votación Federal y municipal, en donde mesa pasa el número de votos que recibio cada partido sin contar votos nulos ó vacios en cada periodo de Votación. 
 ### 2.2 Arquitectura de la solución
 
-*[Incluya aquí un diagrama donde se aprecie la arquitectura de la solución propuesta, así como la interacción entre los diferentes componentes de la misma.]*
-
+![](databases/Arquitectura.jpeg)
 ### 2.3 Frontend
 
 *[Incluya aquí una explicación de la solución utilizada para el frontend de la tarea. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
