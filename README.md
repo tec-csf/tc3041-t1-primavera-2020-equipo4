@@ -33,7 +33,7 @@ El proyecto debe seguir la siguiente estructura de carpetas:
     - README.md			# Archivo con la información general de la tarea (este archivo)
     - frontend			# Carpeta con la solución del frontend (Web app)
     - backend			# Carpeta con la solución del backend en caso de ser necesario (CMS o API)
-    - scripts		        # Carpeta con los scripts necesarios para generar la base de datos, cargar datos y ejecutar las consultas
+    - scripts		    # Carpeta con los scripts necesarios para generar la base de datos, cargar datos y ejecutar las consultas
     - database			# Carpeta con el diagrama Entidad-Relación Extendido y los archivos CSV de datos necesarios para generar la bases de datos
 
 ```
@@ -72,18 +72,12 @@ Tambien entre Mesa y Partido hay dos tablas, que representan las Votación Feder
 #### 2.3.2 Framework
 #### 2.3.3 Librerías de funciones o dependencias
 
-### 2.4 Backend
-
-*[Incluya aquí una explicación de la solución utilizada para el backend de la tarea. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
-#### 2.4.1 Lenguaje de programación
-#### 2.4.2 Framework
-#### 2.4.3 Librerías de funciones o dependencias
-
 ## 2.5 Pasos a seguir para utilizar la aplicación
 
-*[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
+Para crear la base de datos se debe de usar docker, en la carpeta de /scripts existen los comandos para crear las tablas al igual que los inserts para meter todos los datos en la base de datos de las votaciones. 
 
 ## 3. Referencias
 
-*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar la tarea y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+https://www.ibm.com/analytics/db2
+https://dev.to/sahilrajput/install-flask-and-create-your-first-web-application-2dba
+https://stackoverflow.com/questions/6044326/how-to-connect-python-to-db2
