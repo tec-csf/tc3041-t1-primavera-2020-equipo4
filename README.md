@@ -74,7 +74,7 @@ Tambien entre Mesa y Partido hay dos tablas, que representan las Votación Feder
 
 ## 2.5 Pasos a seguir para utilizar la aplicación
 
-Para crear la base de datos se debe de usar docker, en la carpeta de /scripts existen los comandos para crear las tablas al igual que los inserts para meter todos los datos en la base de datos de las votaciones. 
+Para crear la base de datos se debe de usar docker, en la carpeta de /scripts existen los comandos para crear las tablas al igual que los inserts para meter todos los datos en la base de datos de las votaciones al igual se presentan los updates y deletes para probar lod datos dentro de la bases de datos. Al igual a la hora de crear las tablas se crean las tablas versionadas. 
 
 ## 3. Referencias
 
